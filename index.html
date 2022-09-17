@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Air travel agency</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+  <header>
+     <!-- ---------------navbar start here ----------------  -->
+     <nav class="navbar navbar-expand-lg" style="background-color: rgba(233, 233, 255, 0.573);">
+      <div class="container fs-5 fw-semibold">
+        <img src="images/logo-removebg-preview.png" alt="Logo" width="40" height="40"
+          class="d-inline-block align-text-top">
+        <a class="navbar-brand text-info fs-1 fw-bolder py-2" href="#">Fly<span class="text-dark">with</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ticket</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Offers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Best deal
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <button class="btn btn-outline-info" type="submit">SUBSCRIBE</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+     <!-- ---------------navbar start end ----------------  -->
+    <!-- --------------carousel start ----------------------  -->
+    <div class="owl-carousel owl-theme container">
+      <div class="item">
+        <img class="img-fluid" src="images/image1.jpg" alt="">
+      </div>
+      <div class="item">
+        <img class="img-fluid" src="images/image2.jpg" alt="">
+      </div>
+      <div class="item">
+        <img class="img-fluid" src="images/image3.jpg" alt="">
+      </div>
+    </div>
+
+    <!-- --------------carousel end ----------------------  -->
+    <div class="caro">
+      <h1 id="h1">“The journey of a thousand miles <br> begins with a single step.”</h1>
+      <button class="btn btn-outline-info text-white py-2 px-5 fs-5 mt-2">Let's Travel</button>
+    </div>
+    <!-- ----------------------navbar---------------------- -->
+   
+  </header>
+  <!-- ---------------------------------main section start from here ------------------  -->
+  <main>
+   <div class="container">
+    <div class="d-flex gap-2 justify-content-evenly py-3 bg-dark align-items-baseline mb-5">
+      <div class="">
+        <input type="text" class="form-control" id="validationCustom01" value="" placeholder="From where you start" required>
+      </div>
+      <div class="">
+        <input type="text" class="form-control" id="validationCustom02" value="" placeholder="Your destination" required>
+      </div>
+      <div class="">
+        <input type="date" class="form-control" id="validationCustom02" value="" placeholder="Date of travel" required>
+      </div>
+      <div class="">
+        <button class="btn btn-info py-1 px-3 rounded-1 fs-5 text-white d-flex">Confirm</button>
+      </div>
+    </div>
+   </div>
+  </main>
+  <!-- -----------------------script ---------------------- -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

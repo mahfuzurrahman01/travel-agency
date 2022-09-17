@@ -1,0 +1,20 @@
+body{
+    background-image: url();
+}
+.img-fluid{
+    height: 85vh;
+    filter: brightness(50%)
+}
+.caro{
+    text-align: center;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 27%;
+}
+#h1{
+    font-size: 50px;
+    color: rgb(206, 206, 206);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
