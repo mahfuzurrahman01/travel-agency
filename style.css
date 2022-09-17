@@ -18,3 +18,23 @@ body{
     color: rgb(206, 206, 206);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.ticket{
+    background-image: linear-gradient(rgba(164, 191, 246, 0.49),rgba(9, 9, 9, 0.797)),url(images/main.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+}
+.box{
+    height: 400px;
+    width: 600px;
+    background-color: rgba(255, 237, 237, 0.203);
+    left: 27%;
+    top: 20%;
+    position: absolute;
+    z-index: 3;
+    border: 1px solid paleturquoise;
+    border-radius: 10px;
+}
+
