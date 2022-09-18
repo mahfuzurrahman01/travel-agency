@@ -25,16 +25,32 @@ body{
     background-size: cover;
     height: 80vh;
     position: relative;
+    gap: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
 }
-.box{
+/* .box{
     height: 400px;
-    width: 600px;
+    width: 500px;
     background-color: rgba(255, 237, 237, 0.203);
-    left: 27%;
-    top: 20%;
-    position: absolute;
+    /* left: 27%;
+    top: 20%; */
+    /* position: absolute;
     z-index: 3;
     border: 1px solid paleturquoise;
     border-radius: 10px;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */ 
 
+.card{
+    background-color: rgba(203, 255, 238, 0.319);
+    padding: 10px;
+}
+#ticket-h1{
+    font-size: 5rem;
+    font-weight: bold;
+}
